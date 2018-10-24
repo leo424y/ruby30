@@ -21,7 +21,7 @@ end
 @answer=''
 @hint=[]
 4.times {@answer +=  random}
-p @answer.to_i
+# p @answer.to_i
 
 @win = false
 until @win == true
